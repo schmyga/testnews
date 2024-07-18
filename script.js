@@ -1,7 +1,7 @@
 // Функция для отображения новостей
 function displayNews() {
-  // URL-адрес RSS-ленты bild.de
-  const newsFeed = 'https://www.bild.de/rss/bild-de-news.rss';
+  // URL-адрес RSS-ленты stern.de
+  const newsFeed = 'https://www.stern.de/feed/standard/all/';
 
   // Получаем элемент новостной ленты из HTML
   const newsTicker = document.getElementById('news-ticker');
