@@ -1,7 +1,7 @@
 // Функция для отображения новостей
 function displayNews() {
   // URL-адрес RSS-ленты
-  const newsFeed = 'https://newsfeed.zeit.de/index';
+  const newsFeed = 'https://feeds.bbci.co.uk/news/rss.xml';
 
   // Получаем элемент новостной ленты из HTML
   const newsTicker = document.getElementById('news-ticker');
