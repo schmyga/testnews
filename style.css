@@ -1,0 +1,14 @@
+.marquee {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: marquee 20s linear infinite;
+  background-color: #00FFFF;
+  color: #000000;
+  padding: 10px 0;
+}
+
+@keyframes marquee {
+  0% { text-indent: 100% }
+  100% { text-indent: -100% }
+}
